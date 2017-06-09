@@ -4,7 +4,7 @@
 {-# LANGUAGE Trustworthy #-}
 {-# LANGUAGE Strict #-}
 module Data.Type.Dict
-  ( Dict'(..), SDict', SizeProxy, SizeProxySym0
+  ( Dict, Dict'(..), SDict', SizeProxy, SizeProxySym0
   , natProxy, sNatProxy, NatProxy, NatProxySym0
   , dictNull, sDictNull, DictNull, DictNullSym0, DictNullSym1
   , size, sSize, Size, SizeSym0, SizeSym1
