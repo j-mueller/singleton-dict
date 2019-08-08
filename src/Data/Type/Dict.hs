@@ -9,7 +9,7 @@ module Data.Type.Dict
   , dictNull, sDictNull, DictNull, DictNullSym0, DictNullSym1
   , size, sSize, Size, SizeSym0, SizeSym1
   , dictLookup, sDictLookup, DictLookup, DictLookupSym0, DictLookupSym1, DictLookupSym2
-  , (!?), (:!?), (%:!?), (:!?$), (:!?$$), (:!?$$$)
+  , (!?)
   , empty, sEmpty, Empty, EmptySym0, EmptySym1
   , singleton, sSingleton, Singleton, SingletonSym0, SingletonSym1, SingletonSym2
   , insert, sInsert, Insert, InsertSym0, InsertSym1, InsertSym2, InsertSym3
@@ -67,7 +67,7 @@ import Data.Monoid
 import Data.Proxy
 import Data.Singletons
 import Data.Singletons.Prelude
-import Data.Singletons.TH
+import Data.Singletons.TH (singletons)
 import GHC.TypeLits
 
 
